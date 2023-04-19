@@ -1,0 +1,41 @@
+body {
+    background-color: #230f48;
+}
+
+.container {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section {
+    background-color: #ac454538;
+    min-height: 50vh;
+    text-align: center;
+}
+
+.plus {
+    top: 33%;
+}
+
+@media (min-width:320px) {
+    .maininput {
+        width: 100%
+    }
+
+    .section {
+        width: 90%;
+    }
+}
+
+@media (min-width:768px) {
+    .maininput {
+        width: 75%
+    }
+
+    .section {
+        width: 56%;
+    }
+}
